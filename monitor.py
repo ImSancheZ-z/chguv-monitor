@@ -16,7 +16,7 @@ from bs4 import BeautifulSoup
 
 URL = "https://chguv.san.gva.es/rrhh/seleccion/bolsa-de-trabajo/convocatorias-bolsa-de-empleo-temporal"
 SNAPSHOT_FILE = Path("data/snapshot.json")
-TELEGRAM_CHAT_ID = "911700880"
+TELEGRAM_CHAT_IDS = ["911700880", "6591633853"]
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; CHGUV-Monitor/1.0)"
 }
@@ -85,25 +85,26 @@ def find_new_items(current: list[dict], previous: list[dict]) -> list[dict]:
 
 
 def send_telegram(message: str) -> None:
-    """Envía un mensaje por Telegram."""
+    """Envía un mensaje por Telegram a todos los destinatarios."""
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
     if not token:
         print("⚠️  TELEGRAM_BOT_TOKEN no definido.")
         return
 
     api_url = f"https://api.telegram.org/bot{token}/sendMessage"
-    payload = {
-        "chat_id": TELEGRAM_CHAT_ID,
-        "text": message,
-        "parse_mode": "HTML",
-        "disable_web_page_preview": True,
-    }
 
-    response = requests.post(api_url, json=payload, timeout=15)
-    if response.status_code == 200:
-        print("✅ Mensaje Telegram enviado correctamente")
-    else:
-        print(f"❌ Error Telegram: {response.status_code} - {response.text}")
+    for chat_id in TELEGRAM_CHAT_IDS:
+        payload = {
+            "chat_id": chat_id,
+            "text": message,
+            "parse_mode": "HTML",
+            "disable_web_page_preview": True,
+        }
+        response = requests.post(api_url, json=payload, timeout=15)
+        if response.status_code == 200:
+            print(f"✅ Mensaje enviado a {chat_id}")
+        else:
+            print(f"❌ Error enviando a {chat_id}: {response.status_code} - {response.text}")
 
 
 def build_alert_message(new_items: list[dict]) -> str:
