@@ -2,93 +2,57 @@
   "items": [
     {
       "context": "NUEVO 01/04/2026 Relación provisional",
-      "detected_at": "2026-04-27 08:06"
+      "detected_at": "2026-04-28 08:08"
     },
     {
-      "context": "BET/05/25- 01 Facultativo/a Especialista en Alergología NUEVO 27/03/2026 Relación provisional",
-      "detected_at": "2026-04-27 08:06"
+      "context": "BET/05/25- 16 Facultativo/a Especialista en Farmacia Hospitalaria NUEVO 27/04/2026 Relación provisional",
+      "detected_at": "2026-04-28 08:08"
     },
     {
-      "context": "BET/05/25- 02 Facultativo/a Especialista en Anatomía Patológica NUEVO 27/03/2026 Relación provisional",
-      "detected_at": "2026-04-27 08:06"
+      "context": "BET/05/25- 17 Facultativo/a Especialista en Hematología y Hemoterapia NUEVO 27/04/2026 Relación provisional",
+      "detected_at": "2026-04-28 08:08"
     },
     {
-      "context": "BET/05/25- 03 Facultativo/a Especialista en Anestesiología y Reanimación NUEVO 27/03/2026 Relación provisional",
-      "detected_at": "2026-04-27 08:06"
+      "context": "BET/05/25- 20 Facultativo/a Especialista en Medicina Interna NUEVO 27/04/2026 Relación provisional",
+      "detected_at": "2026-04-28 08:08"
     },
     {
-      "context": "BET/05/25- 04 Facultativo/a Especialista en Angiología y Cirugía Vascular NUEVO 27/03/2026 Relación provisional",
-      "detected_at": "2026-04-27 08:06"
+      "context": "BET/05/25- 24 Facultativo/a Especialista en Nefrología NUEVO 27/04/2026 Relación provisional",
+      "detected_at": "2026-04-28 08:08"
     },
     {
-      "context": "BET/05/25- 05 Facultativo/a Especialista en Aparato Digestivo NUEVO 27/03/2026 Relación provisional",
-      "detected_at": "2026-04-27 08:06"
+      "context": "BET/05/25- 33 Facultativo/a Especialista en Otorrinolaringología NUEVO 27/04/2026 Relación provisional",
+      "detected_at": "2026-04-28 08:08"
     },
     {
-      "context": "BET/05/25- 06 Facultativo/a Especialista en Cardiología NUEVO 27/03/2026 Relación provisional",
-      "detected_at": "2026-04-27 08:06"
+      "context": "BET/05/25- 35 Facultativo/a Especialista en Psicología Clínica NUEVO 27/04/2026 Relación provisional",
+      "detected_at": "2026-04-28 08:08"
     },
     {
-      "context": "BET/05/25- 07 Facultativo/a Especialista en Cirugía Cardiovascular NUEVO 27/03/2026 Relación provisional",
-      "detected_at": "2026-04-27 08:06"
+      "context": "BET/05/25- 38 Facultativo/a Especialista en Reumatología NUEVO 27/04/2026 Relación provisional",
+      "detected_at": "2026-04-28 08:08"
     },
     {
-      "context": "BET/05/25- 08 Facultativo/a Especialista en Cirugía General y del Aparato Digestivo NUEVO 27/03/2026 Relación provisional",
-      "detected_at": "2026-04-27 08:06"
+      "context": "BET/05/25- 39 Facultativo/a Especialista en Urología NUEVO 27/04/2026 Relación provisional",
+      "detected_at": "2026-04-28 08:08"
     },
     {
-      "context": "BET/05/25- 09 Facultativo/a Especialista en Cirugía Oral y Maxilofacial NUEVO 27/03/2026 Relación provisional",
-      "detected_at": "2026-04-27 08:06"
-    },
-    {
-      "context": "NUEVO 27/03/2026 Relación provisional",
-      "detected_at": "2026-04-27 08:06"
-    },
-    {
-      "context": "BET/05/25- 11 Facultativo/a Especialista en Cirugía Pediátrica NUEVO 27/03/2026 Relación provisional",
-      "detected_at": "2026-04-27 08:06"
-    },
-    {
-      "context": "BET/05/25- 12 Facultativo/a Especialista en Cirugía Plástica, Estética y Reparadora NUEVO 27/03/2026 R Relación provisional",
-      "detected_at": "2026-04-27 08:06"
-    },
-    {
-      "context": "BET/05/25- 13 Facultativo/a Especialista en Cirugía Torácica NUEVO 27/03/2026 Relación provisional",
-      "detected_at": "2026-04-27 08:06"
-    },
-    {
-      "context": "BET/05/25- 14 Facultativo/a Especialista en Dermatología Médico-Quirúrgica y Venereología NUEVO 27/03/2026 Relación provisional",
-      "detected_at": "2026-04-27 08:06"
-    },
-    {
-      "context": "BET/05/25- 15 Facultativo/a Especialista en Endocrinología y Nutrición NUEVO 27/03/2026 Relación provisional",
-      "detected_at": "2026-04-27 08:06"
-    },
-    {
-      "context": "BET/05/25- 18 Facultativo/a Especialista en Laboratorio Clínico NUEVO 27/03/2026 Relación provisional",
-      "detected_at": "2026-04-27 08:06"
-    },
-    {
-      "context": "BET/05/25- 25 Facultativo/a Especialista en Neumología NUEVO 27/03/2026 Relación provisional",
-      "detected_at": "2026-04-27 08:06"
-    },
-    {
-      "context": "BET/05/25- 28 Facultativo/a Especialista en Neurología NUEVO 27/03/2026 Relación provisional",
-      "detected_at": "2026-04-27 08:06"
-    },
-    {
-      "context": "BET/05/25- 41 Médico/a de la Unidad de Hospitalización a Domicilio (UHD) NUEVO 27/03/2026 Relación provisional",
-      "detected_at": "2026-04-27 08:06"
+      "context": "BET/05/25- 40 Médico/a de Documentación Clinica y Admisión NUEVO 27/04/2026 Relación provisional",
+      "detected_at": "2026-04-28 08:08"
     },
     {
       "context": "BET/05/25- 42 Médico/a de Urgencia Hospitalaria 27/03/2026 Relación provisional NUEVO 02/04/2026 Corrección errores relación provisional",
-      "detected_at": "2026-04-27 08:06"
+      "detected_at": "2026-04-28 08:08"
+    },
+    {
+      "context": "BET/05/25- 43 Médico/a del Trabajo NUEVO 27/04/2026 Relación provisional",
+      "detected_at": "2026-04-28 08:08"
     },
     {
       "context": "NUEVO 09/04/2026 Relación provisional",
-      "detected_at": "2026-04-27 08:06"
+      "detected_at": "2026-04-28 08:08"
     }
   ],
-  "last_check": "2026-04-27 08:06",
+  "last_check": "2026-04-28 08:08",
   "url": "https://chguv.san.gva.es/rrhh/seleccion/bolsa-de-trabajo/convocatorias-bolsa-de-empleo-temporal"
 }
