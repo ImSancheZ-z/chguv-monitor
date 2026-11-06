@@ -1,8 +1,9 @@
 name: Monitor CHGUV Bolsa de Empleo
 
 on:
-  schedule:
-    - cron: '0 6 * * *'
+  # Paused: daily schedule disabled until the monitor is resumed.
+  # schedule:
+  #   - cron: '0 6 * * *'
   workflow_dispatch:
 
 jobs:
